@@ -24,9 +24,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CK Choi's Blog
+title: 케테르의 블로그
 email: cck1835@naver.com
-author: Gitnameisname
+description: >- # this means to ignore newlines until "baseurl:"
+  Hello World!
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://gitnameisname.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+# favicon: "" # the favicon for your site
+
+github_username: Gitnameisname
+
+theme: jekyll-theme-yat
+
+# Build settings
+# highlighter: none
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -42,19 +63,13 @@ author: Gitnameisname
 #
 # copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Hello World!
-
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://gitnameisname.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-# favicon: "" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
   date_format: "%b %d, %Y"
 
-theme: jekyll-theme-yat
+
 
 # If you want more debug log, you can set true
 # debug: false
@@ -236,16 +251,3 @@ theme: jekyll-theme-yat
 #   label: "utterances comment"
 #   theme: "github-light"
 #   follow_site_theme: true
-
-# Build settings
-# highlighter: none
-markdown: kramdown
-kramdown:
-  input: GFM
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
