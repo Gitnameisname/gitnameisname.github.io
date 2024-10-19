@@ -42,8 +42,8 @@ $click-to-top-dark-background-color: #34323d; // Replace with actual color
 $click-to-top-dark-color: #bbb; // Replace with actual color
 
 // Selection styles
-$selection-color: inherit; // Replace with actual color
-$selection-background-color: rgba(invert($brand-color), 0.3); // Replace with actual color
+$selection-color: unquote("{{ site.selection.color }}");
+$selection-background-color: unquote("{{ site.selection.background_color }}");
 
 @if $selection-color == "" {
   $selection-color: inherit;
