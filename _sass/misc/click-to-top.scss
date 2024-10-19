@@ -31,6 +31,12 @@
   transform: translateY(0);
 }
 
+// Click to top theme
+$click-to-top-light-background-color: unquote("{{ site.click_to_top.light.background_color | default: 'white' }}");
+$click-to-top-light-color: unquote("{{ site.click_to_top.light.color | default: '#454545' }}");
+$click-to-top-dark-background-color: unquote("{{ site.click_to_top.dark.background_color | default: '#34323d' }}");
+$click-to-top-dark-color: unquote("{{ site.click_to_top.dark.color | default: '#bbb' }}");
+
 html[data-theme="light"] {
   .click-to-top {
     background-color: $click-to-top-light-background-color;
