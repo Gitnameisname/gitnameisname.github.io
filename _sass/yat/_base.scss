@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -22,10 +20,7 @@ body {
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
@@ -33,22 +28,15 @@ body {
   transition-duration: $base-transition-duration;
 }
 
-
-
-// /**
-//  * Set `margin-bottom` to maintain vertical rhythm
-//  */
-// h1, h2, h3, h4, h5, h6,
-// p, blockquote, pre,
-// ul, ol, dl, figure {
-//   margin-bottom: math.div($spacing-unit, 2);
-// }
-
-// %vertical-rhythm {
-//   margin-bottom: math.div($spacing-unit, 2);
-// }
-
-
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: math.div($spacing-unit, 2);
+}
 
 /**
  * `main` element
@@ -57,8 +45,6 @@ main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
-
-
 /**
  * Images
  */
@@ -66,8 +52,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -79,8 +63,6 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -96,13 +78,11 @@ li {
   }
 }
 
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight * 1.5;
+  font-weight: math.div($base-font-weight, 2) * 3;
 }
 
 /**
@@ -140,8 +120,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Code formatting
@@ -181,8 +159,6 @@ pre {
   }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -194,8 +170,6 @@ pre {
   @extend %clearfix;
 }
 
-
-
 /**
  * Clearfix
  */
@@ -204,7 +178,6 @@ pre {
   display: table;
   clear: both;
 }
-
 
 /**
  * Tables
@@ -256,10 +229,6 @@ table {
  */
 @mixin flex-sticky($top) {
   position: sticky;
-  position: -moz-sticky; /* <-- fix sticky compatibility issue */
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: -webkit-sticky;
   align-self: flex-start; /* <-- fix the sticky not work issue */
   transform: scale(0.9999); /* <-- fix the sticky x overflow issue */
   top: $top;
