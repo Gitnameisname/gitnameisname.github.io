@@ -1,8 +1,8 @@
 - title: Home
   path: /index.html
 
-- title: About
-  path: /about.html
+- title: Archives
+  path: /archives.html
 
 - title: Categories
   path: /categories.html
