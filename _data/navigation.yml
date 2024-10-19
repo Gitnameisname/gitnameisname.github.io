@@ -3,3 +3,12 @@
 
 - title: About
   path: /about.html
+
+- title: Categories
+  path: /categories.html
+
+- title: Tags
+  path: /tags.html
+
+- title: About
+  path: /about.html
