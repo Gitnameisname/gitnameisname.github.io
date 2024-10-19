@@ -35,18 +35,18 @@ body {
 
 
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure {
-  margin-bottom: math.div($spacing-unit, 2);
-}
+// /**
+//  * Set `margin-bottom` to maintain vertical rhythm
+//  */
+// h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre,
+// ul, ol, dl, figure {
+//   margin-bottom: math.div($spacing-unit, 2);
+// }
 
-%vertical-rhythm {
-  margin-bottom: math.div($spacing-unit, 2);
-}
+// %vertical-rhythm {
+//   margin-bottom: math.div($spacing-unit, 2);
+// }
 
 
 
