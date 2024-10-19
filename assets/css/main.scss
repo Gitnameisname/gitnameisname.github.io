@@ -36,10 +36,10 @@ $brand-color: map-get($brand-colors, "orangered");
 $content-width: 920px; // Replace with actual content width
 
 // Click to top theme
-$click-to-top-light-background-color: white; // Replace with actual color
-$click-to-top-light-color: #454545; // Replace with actual color
-$click-to-top-dark-background-color: #34323d; // Replace with actual color
-$click-to-top-dark-color: #bbb; // Replace with actual color
+$click-to-top-light-background-color: unquote("{{ site.click_to_top.light.background_color | default: 'white' }}");
+$click-to-top-light-color: unquote("{{ site.click_to_top.light.color | default: '#454545' }}");
+$click-to-top-dark-background-color: unquote("{{ site.click_to_top.dark.background_color | default: '#34323d' }}");
+$click-to-top-dark-color: unquote("{{ site.click_to_top.dark.color | default: '#bbb' }}");
 
 // Selection styles
 $selection-color: unquote("{{ site.selection.color }}");
