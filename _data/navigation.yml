@@ -1,3 +1,2 @@
-main:
-  - title: "Home"
-    url: "/home/"
+- title: "Home"
+  path: "/index.html"
