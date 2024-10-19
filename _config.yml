@@ -28,9 +28,9 @@ github_username:  Gitnameisname
 
 # Build settings
 theme: jekyll-theme-yat
-markdown: kramdown
-kramdown:
-  input: GFM
+# markdown: kramdown
+# kramdown:
+#   input: GFM
 
 plugins:
   - jekyll-feed
