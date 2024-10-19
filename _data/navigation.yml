@@ -1,2 +1,5 @@
 - title: Home
-  path: /home.html
+  path: /index.html
+
+- title: About
+  path: /about.html
