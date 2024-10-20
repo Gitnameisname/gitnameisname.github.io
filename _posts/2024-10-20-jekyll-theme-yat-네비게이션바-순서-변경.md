@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll yat 테마 네비게이션바 순서 변경
 author: 사유담
-excerpt_image: ./assets/images/post_images/2024-10-19-github-포스트-오픈/github-mark.png
+excerpt_image: ./assets/images/post_images/2024-10-20-jekyll-theme-yat-네비게이션바-순서-변경/jekyll-navigation-bar.png
 categories: 잡담
 tags: jekyll theme yat github-page
 ---
