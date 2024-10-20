@@ -20,13 +20,13 @@ Github 페이지는 Jekyll을 사용하여 테마를 적용할 수 있다. 여�
 ### 1. /_includes/views/header.html 스크립트 살펴보기
 네비게이션바는 `_includes/views/header.html` 스크립트에서 정의된다. 24번째 줄 `_includes/views/header.html`로 시작되는 블록이 바로 네비게이션바 정의 구역이다. 여기서 살펴봐야 할 부분은 17~18번째 줄과 36~41번쨰 줄까지 아래의 코드블럭들이다.
 
-```html
+```
 <!--17~18번째 줄-->
 {%- assign default_paths = site.pages | where: "dir", "/" | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 ```
 
-```html
+```
 <!--36~41번째 줄-->
 {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -68,7 +68,7 @@ Github 페이지는 Jekyll을 사용하여 테마를 적용할 수 있다. 여�
 앞으로 네비게이션바는 이 yml 파일의 목록 순서대로 만들도록 할 것이다. 이제 이 순서대로 네비게이션 메뉴를 정렬하도록 만들기 위해, `/_includes/views/header.html` 파일로 돌아와 for문을 다음과 같이 수정한다.
 
 **/_includes/views/header.html**  
-```html
+```
 {%- for page in site.data.navigation -%}
     <a class="page-link" href="{{ page.path | relative_url }}">{{ page.title | upcase | escape }}</a>
 {%- endfor -%}
@@ -79,7 +79,7 @@ Github 페이지는 Jekyll을 사용하여 테마를 적용할 수 있다. 여�
 그리고 17~18번째 줄의 코드는 더 이상 필요하지 않으므로 삭제하였다.
 
 **/_includes/views/header.html**  
-```html
+```
 <!--17~18번째 줄 삭제
 {%- assign default_paths = site.pages | where: "dir", "/" | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -89,7 +89,7 @@ Github 페이지는 Jekyll을 사용하여 테마를 적용할 수 있다. 여�
 여기에 나는 아래의 코드를 `nav` 블록 앞에 추가하여 navigation.yml이 있는지 여부를 사전에 확인하도록 하였다.
 
 **/_includes/views/header.html**  
-```html
+```
 {%- if site.data.navigation -%}
     <nav class="site-nav">
 {%- endif -%}
@@ -98,7 +98,7 @@ Github 페이지는 Jekyll을 사용하여 테마를 적용할 수 있다. 여�
 최종적으로 nav 블록의 전체 모습은 아래와 같이 변하였다.
 
 **/_includes/views/header.html**  
-```html
+```
 {%- if site.data.navigation -%}
     <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
