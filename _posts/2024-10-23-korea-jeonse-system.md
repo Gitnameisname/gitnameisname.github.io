@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jeonse System
-author: 사유담
+author: SahYooDam(사유담)
 excerpt_image: ./assets/images/post_images/부동산/house.png
 categories: 부동산
 tags: 부동산 재테크 전세
