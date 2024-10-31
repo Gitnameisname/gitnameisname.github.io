@@ -21,19 +21,17 @@ Apartments are supplied as standardized large-scale residential areas. This make
 
 Below is a look at the famous apartment complex `Gaepo Raemian Forest` in Gaepo-dong, Gangnam, as found on the Naver Real Estate website. This apartment complex was completed in 2020 and consists of a total of 2,296 households, making it a large-scale apartment complex. At the time the screenshot was taken, there were 245 properties listed for sale, 247 for jeonse (long-term lease), and 262 for monthly rent. The sale prices range from 1.95 billion to 4.5 billion KRW. You might wonder how this can be considered consistent pricing. However, as previously mentioned, the premise is that `if the properties are of the same size within the same complex`, the prices will be relatively consistent. To see this, we need to look at the listings by area within this apartment complex.
 
-![apt_of_korea_001](/assets/images/post_images/부동산/apt-of-korea-001.png)
+![apt_of_korea_001](/assets/images/post_images/부동산/apt_of_korea_001.png)
 
 On Naver Real Estate, if we group the same listings and look only at the 86㎡ A type (627 households) and B type (67 households) in this complex, we can see the price range for the same size units as shown below. The prices are roughly between 2.2 billion and 2.4 billion KRW. Additionally, there are about 20 listings available, allowing buyers to choose based on specific conditions if they wish.
 
-![apt_of_korea_002](/assets/images/post_images/부동산/apt-of-korea-002.png)
+![apt_of_korea_002](/assets/images/post_images/부동산/apt_of_korea_002.png)
 
 The neighborhood we looked at earlier is one of the most expensive real estate locations in Korea. Not all real estate in Korea is like this, so let's take a look at an apartment complex in Nowon, an outer district of Seoul. Below is the `Sanggye Jugong 10 Complex Apartment` in Nowon-gu, as found on the Naver Real Estate website. This complex has a total of 2,654 households, with 112 properties listed for sale, 35 for jeonse (long-term lease), and 26 for monthly rent. In this case, the apartment is located in Nowon-gu, an outer district of Seoul, and the apartment itself is 27 years old, so the prices range from 400 million to 800 million KRW.
 
-![apt_of_korea_003](/assets/images/post_images/부동산/apt-of-korea-003.png)
+![apt_of_korea_003](/assets/images/post_images/부동산/apt_of_korea_003.png)
 
 Similarly, for this apartment, if we look at the 85㎡ A type (120 households) and B type (60 households) to see the price range, we can see that the listings are priced between 600 million and 700 million KRW.
-
-<img src="/assets/images/post_images/부동산/apt_of_korea_004.png">
 
 ![apt_of_korea_004](/assets/images/post_images/부동산/apt_of_korea_004.png)
 
